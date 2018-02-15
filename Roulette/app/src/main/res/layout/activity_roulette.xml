@@ -30,12 +30,14 @@
         android:scaleType="centerInside"
         app:srcCompat="@drawable/roulette_wheel"
         />
+
     <ImageView
         android:id="@+id/imPointer"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imRoulette"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="59dp"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/roulette_pointer" />
 

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Roulette</string>
+    <string name="white">#ffffff</string>
 </resources>
