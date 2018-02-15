@@ -9,12 +9,15 @@ import android.widget.TextView;
 public class RouletteActivity extends AppCompatActivity {
     Button button;
     TextView textView;
-    ImageView wheelRou;
+    ImageView wheelRoul;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_roulette);
+        button = (Button) findViewById(R.id.btn_spin);
+        textView = (TextView) findViewById(R.id.textView);
+        wheelRoul = (ImageView) findViewById(R.id.imRoulette);
     }
 }
